@@ -257,7 +257,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
         url={canonicalPageUrl}
       />
 
-      {isLiteMode && <BodyClassName className='notion-lite' />}
+      {isLiteMode && <BodyClassName className='light-mode' />}
       {isDarkMode && <BodyClassName className='dark-mode' />}
 
       <NotionRenderer
