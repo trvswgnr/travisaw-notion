@@ -29,7 +29,6 @@ import { PageHead } from './PageHead'
 import { PageAside } from './PageAside'
 import { Footer } from './Footer'
 import { NotionPageHeader } from './NotionPageHeader'
-import { GitHubShareButton } from './GitHubShareButton'
 
 import styles from './styles.module.css'
 
@@ -196,7 +195,7 @@ export const NotionPage: React.FC<types.PageProps> = ({
     block?.type === 'page' && block?.parent_table === 'collection'
 
   const showTableOfContents = !!isBlogPost
-  const minTableOfContentsItems = 3
+  const minTableOfContentsItems = 1
 
   const pageAside = React.useMemo(
     () => (
@@ -285,8 +284,6 @@ export const NotionPage: React.FC<types.PageProps> = ({
         pageAside={pageAside}
         footer={footer}
       />
-
-      <GitHubShareButton />
     </>
   )
 }

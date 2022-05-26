@@ -11,6 +11,7 @@ export const PageAside: React.FC<{
   recordMap: ExtendedRecordMap
   isBlogPost: boolean
 }> = ({ block, recordMap, isBlogPost }) => {
+	return null;
   if (!block) {
     return null
   }
