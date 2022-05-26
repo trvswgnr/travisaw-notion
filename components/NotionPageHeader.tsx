@@ -44,7 +44,9 @@ export const NotionPageHeader: React.FC<{
   return (
     <header className='notion-header'>
       <div className='notion-nav-header'>
-        <a href="/" className='site-title'><strong>Travis Aaron Wagner</strong></a>
+        <a href='/' className='site-title'>
+          <strong>Travis Aaron Wagner</strong>
+        </a>
 
         <div className='notion-nav-header-rhs breadcrumbs'>
           {navigationLinks
