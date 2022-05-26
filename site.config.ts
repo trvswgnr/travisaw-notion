@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: 'Travis Aaron Wagner',
-  domain: 'notion.travisaw.com',
+  domain: 'notion-travisaw-trvswgnr.vercel.app',
   author: 'Travis Aaron Wagner',
 
   // open graph metadata (optional)
