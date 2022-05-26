@@ -18,8 +18,14 @@ body {
     'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
     'Droid Sans', 'Helvetica Neue', 'Noto Sans', sans-serif;
   font-family: var(--notion-font);
-  background: var(--bg-color);
+  background: #2f3437;
   min-height: calc(100vh - var(--notion-header-height) - 6px);
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: #ffffff;
+  }
 }
 
 ::-webkit-scrollbar {
